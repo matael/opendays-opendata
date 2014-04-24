@@ -43,11 +43,18 @@ body {
 	font-size: 1.1em;
 }
 
-.important {
+.important, .red, #thanks h1 {
 	color: #e8580c;
 }
 
-h2 { text-indent: 30px;}
+h2 {
+	text-indent: -20px;
+	color:  #D19116
+}
+
+h1 {
+	text-align: center;
+}
 
 #title {
 	text-align: center;
@@ -73,9 +80,4 @@ h2 { text-indent: 30px;}
 
 #thanks img {
 	float: right;
-}
-
-#tourisme:before{
-	content: "(";
-	/* font-size: 400px; */
 }

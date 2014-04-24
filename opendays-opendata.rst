@@ -1,9 +1,10 @@
-:data-transition-duration: 2000
+:data-transition-duration: 1000
 :skip-help: true
 :css: css/style.css
 
 .. role:: center
 .. role:: important
+.. role:: red
 
 .. title:: OpenDays - OpenData
 
@@ -19,7 +20,7 @@ HAUM |---| Mathieu Gaborit
 .. image:: img/datalove.png
     :class: datalove
 
-.. image:: img/haum.svg
+.. image:: img/haum.png
     :width: 250px
 
 .. |---| unicode:: U+02015 .. em dash
@@ -28,7 +29,7 @@ HAUM |---| Mathieu Gaborit
 
 :id: haum
 
-.. image:: img/haum.svg
+.. image:: img/haum.png
     :width: 350px
 
 HAUM
@@ -38,12 +39,17 @@ Hackerspace de l'Université du Maine
 
 ~ 20 membres actifs
 
+:important:`@haum72`
+:important:`haum.org`
+
 Celui qui cause...
 ------------------
 
-Mathieu Gaborit (**@matael**)
+Mathieu Gaborit 
 
-:center:`mathieu@matael.org`
+:important:`@matael`
+:important:`mathieu@matael.org`
+:important:`blog.matael.org`
 
 Pourfendeur de données
 
@@ -52,8 +58,8 @@ Pourfendeur de données
 Concept Général
 ===============
 
-    *OpenData* : **1.** n.f. Donnée (ou ensemble) numérique d'origine publique ou privée et distribuée sous licence permettant sa
-    ré-utilisation. **2.** n.f. Branche du mouvement citoyen global. Vise à l'amélioration de la vie sociale par analyse et
+    *OpenData* : :red:`1.` n.f. Donnée (ou ensemble) numérique d'origine publique ou privée et distribuée sous licence permettant sa
+    ré-utilisation. :red:`2.` n.f. Branche du mouvement citoyen global. Vise à l'amélioration de la vie sociale par analyse et
     utilisation des données produites.
 
 ----
@@ -73,42 +79,61 @@ Rennes
 - Utilisation de leur portail : :center:`http://www.data.rennes-metropole.fr/`
 - Partenariat avec Keolis Rennes pour la publication des données du réseau STAR :center:`http://data.keolis-rennes.com/`
 
+Grenoble
+--------
+
+- une maire-adjointe (Laurence Comparat) déléguée à *"L'accès à l'information et aux données publiques"*
+
 
 ----
 
 Au Mans
 =======
 
+Un début
+--------
+
 - Volonté d'ouverture (des jeux existent)
-- Existence de service hackable (SETRAM)
+- Existence de services hackables (SETRAM)
 - Volonté d'*"approfondir la démocratie participative"* (J-C. BOULARD, engagement n°9)
 
 Mais...
-=======
+-------
 
 - Pas de prise en compte des retours d'expérience
 - Pas d'unité dans la manière d'ouvrir
 - Pas de réel changement sur les deux dernières années
 
-:center:`Il reste beaucoup à faire...`
+:important:`Il reste beaucoup à faire...`
 
 ----
 
 :data-rotate-z: 90
 
-OpenData : perte immédiate
-==========================
+OpenData : écoData ?
+====================
+
+Perte immédiate
+---------------
 
 - Coût de distribution et d'ouverture
 - Communication nécessaire autour de la démarche
 - Pas de ROI "visible"
 
-OpenData : gain général
-=======================
+Gain général
+------------
 
 - Meilleure inclusion du citoyen dans la vie politique
-- Création de start-up et d'entreprises innovantes
+- Création de start-ups et d'entreprises innovantes
 - Diversité des points de vue, analyse en profondeur des données...
+- Création de communautés
+
+De la gratuité...
+=================
+
+Elle n'est pas inscrite dans la loi... mais est souhaitable.
+
+En tout cas, le tarif d'accès ne peut :red:`excéder le coût de mise à disposition`.
 
 ----
 
@@ -130,27 +155,28 @@ Regroupement de l'ouverture
 Licences
 ========
 
-**ODbL** Permet la réutilisation commerciale ou non, obligation de licencier sous ODbL et de citer la source.
+**ODbL** (tradution) Permet la réutilisation commerciale ou non, obligation de licencier sous ODbL et de citer la source.
 
 **Licence Ouverte** (Etalab) Permet la même chose mais est une création d'Etalab pour le gouvernement français.
 
-Ces licences garantissement la paternité des données.
+Ces licences garantissent la :red:`paternité des données`.
 
 ----
 
 (Tourisme)
 ==========
 
-- ~ 13 milliards d'euros en 2012 (balance, source: WP)
-- semble être un des objectifs du Mans
+- Balance ~ 13 milliards d'euros en 2012 (source: WP)
+- Un des objectifs du nouveau conseil municipal
 
 Un touriste veut...
 -------------------
 
-- des informations sur les transports,
-- des informations sur les lieux touristiques,
-- des informations évènementielles,
-- du **temps-réel géolocalisé et mobile**
+- des infos sur les :red:`transports`,
+- des infos sur les :red:`lieux touristiques,` la :red:`ville`,
+- des infos :red:`évènementielles`,
+- des infos sur :red:`tout` !
+- du :red:`temps-réel géolocalisé` et :red:`mobile`
 
 (source: Livre Blanc "OpenData, TIC et tourisme")
 
@@ -177,9 +203,9 @@ Rappel des faits
 *Exploit*
 ---------
 
-- analyse du site public
-- automatisation des requêtes
-- production d'un paquet Python et d'une API :
+- Analyse du site public
+- Automatisation des requêtes
+- Production d'un paquet Python et d'une API :
 
 :center:`pytimeo.rtfd.org`
 :center:`timeoapi.haum.org`
@@ -192,11 +218,14 @@ Rappel des faits
 :data-x: r-1600
 :data-y: r0
 
-SETRAM : Morale
-===============
+SETRAM
+======
+
+Morale
+------
 
 - Une fois les données ouvertes, des idées d'applis sont apparues
-- Il existe une **vraie demande** pour les données de mobilité
+- Il existe une :red:`vraie demande` pour les données de mobilité
 - Pour que les idées germent, il faudrait une ouverture correcte et des données culturelles
 
 Et au niveau national ?
@@ -204,7 +233,7 @@ Et au niveau national ?
 
 L'ouverture des données SNCF a donné des service sympas :
 
-:center:`raildar.fr`
+:important:`raildar.fr`
 
 ----
 
@@ -217,7 +246,7 @@ Données Electorales
 Rappel des faits
 ----------------
 
-- Le Mans publie les données electorales (obligation légale)
+- Le Mans publie les :red:`données electorales` (obligation légale)
 
 :center:`extra.lemans.fr/elections/`
 
@@ -231,8 +260,8 @@ Rappel des faits
 :data-x: r-1600
 :data-y: r0
 
-Données Electorales : Morale
-============================
+Données Electorales
+===================
 
 Sur le fond
 -----------
@@ -249,6 +278,8 @@ Sur la portée
 
     - *"transparence"* (gouvernement)
     - *"démocratie participative"* (J-C. BOULARD)
+
+- intérêt au delà du Mans : publication sur :red:`ePSI Platform`
 
 ----
 
@@ -285,10 +316,13 @@ Sources :
 - blog.matael.org
 - epsiplatform.eu
 - libertic.wordpress.com
+- zdnet.fr
+
+
 
 ----
 
-:data-x: r3000
+:data-x: r2500
 :data-y: r0
 :data-rotate-z: 0
 :id: thanks
